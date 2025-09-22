@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,19 +15,29 @@ html {
 body {
     color: #fff;
     font-size: 1rem;
+    font-family: "Urbanist", sans-serif;
+}
+
+.logo p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: aqua;
 }
 
 ul {
-    display: flex;
+    display: inline-flex;
     gap: 2rem;
     text-decoration: none;
 }
-li {
-    text-decoration: none;
 
+li {
+    list-style: none;
 }
+
 a {
     text-decoration: none;
+    color: #fff;
+    display: inline-block;
 }
 header {
     display: flex;
@@ -36,13 +51,60 @@ header {
     display: inline-flex;
     justify-content: space-between;
     padding: 1rem;
+    width: 100%;
 }
 nav {
-    display: flex;
+    
+    justify-content: center;
+    align-items: center;
     gap: 1.5rem;
 }
 .btn {
     padding: 4px 8px;
     border-radius: 4px;
     background-color: #fff;
+    color: #070916;
+    width: 100px;
+    text-align: center;
+    
+
+}
+.btn-2 {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #070916;
+    width: 150px;
+    text-align: center;
+}
+.content-header {
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+    gap: 4rem;
+}
+.content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+h1 span {
+    font-size: 0.8rem;
+    color: aqua;
+}
+.content-image {
+    width: 100%;
+    height: 100%;
+}
+.content-image img{
+    width: auto;
+    height: 600px;
 }
